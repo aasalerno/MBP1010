@@ -3,3 +3,5 @@ Effect size
 Name of test
 Sample size
 Biological Significance
+
+In every paper/assignment
