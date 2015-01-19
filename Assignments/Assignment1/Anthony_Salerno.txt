@@ -1,0 +1,46 @@
+MBP1010 Winter 2014 - Assignment #1
+===================================
+Student Name: Anthony_Salerno
+Notes: Your answer should take the form of a single R script that, when run, outputs *only* the
+       information indicated in the questions below, and in exactly that order. Each question will
+       be worth 1% and the entire assignment will be worth 7%
+
+
+
+Question #1: Directory Path Handling
+One critical thing to do in analyzing a dataset is to keep a clean and neat directory structure
+with all your files in logical and easily traceable locations. Create a directory on your machine
+called Assignments. Within that directory create a subdirectory called assignment1.  Copy
+this file into that directory.  Note that these directory names should be exact, including
+capitalization. Finally, start a new R script called assignment1_script.R.  In this script, change the
+working directory to assignment1 and then print the current working directory to screen.
+
+
+Question #2: Directory Listing
+Now use an R command to print the list of files found in assignment1 to screen.
+
+
+Question #3: File Input I
+Next we will look at opening files: starting by saving Assignment1-data.txt to assignment1 however you
+like. Open Assignment1-data.txt in R, saving it as a variable. Note that Assignment1-data.txt
+contains row names and column names, which you will need to handle correctly.  Now print the name
+of row 12 to screen in R.
+
+
+Question #4: File Input II
+Now print to screen the dimensions of this variable.
+
+
+Question #5: File Input III
+Finally, print to screen the contents of the cell in [12, 8].
+
+
+Question #6: File Input IV - calculating summary measures
+Now we will print a summary characteristic.  Using any approach you like, calculate the mean
+of row 12 and print it to screen.
+
+
+Question #7: File Output
+Finally, multiply each cell of your data by -1 and save this into a new variable.
+Write the resulting object to file as a tab-delimited file with intact row and column names.
+
